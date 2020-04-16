@@ -37,18 +37,18 @@
    - <a href="#estrutura-de-controle">Estrutura de Controle</a>
    - <a href="#exercicios">Exercicios</a>
 
-- ### R Fundamentos
-- ### Operadores Basico, relacionais e logicos
-- ### Tipos de Dados
-- ### Variáveis
-- ### Objetos
-- ### Vetores
-- ### Matrizes
-- ### Listas
-- ### Srtings
-- ### Dataframes
-- ### Estrutura de Controle
-- ### Exercicios
+- #### R Fundamentos
+- #### Operadores Basico, relacionais e logicos
+- #### Tipos de Dados
+- #### Variáveis
+- #### Objetos
+- #### Vetores
+- #### Matrizes
+- #### Listas
+- #### Srtings
+- #### Dataframes
+- #### Estrutura de Controle
+- #### Exercicios
 
 
 
