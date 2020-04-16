@@ -137,6 +137,7 @@
       | ! | not |
       | TRUE (ou 1) | Valor booleano verdadeiro (1) |
       | FALSE (ou 0) | Valor boolenao falso (0) |
+      
       *Caso tenha alguma duvida sobre o funciomanento dos operadores lógicos, veja abaixo como é o funciomamento (lógica) de cada operador através da tabela verdade.*
 
       - Tabela Verdade
