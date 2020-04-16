@@ -37,9 +37,9 @@
 ---
 - ### Linguagem R
   - O principal objetivo da linguagem R é realizar a computação de dados, é uma linguagem de programação estatística.
-  - A linguagem R é baseada em objetos, os objetos podem ser vetores, matrizes, funções, aquivos, conjuntos de dados, etc ...
-  - Com a linguagem R se manipula objetos. A manipulação pode ser.cálculo, entrada e saída de dados, análises estatísticas, graficos, etc ...
-  - R é um 'projeto' open-source (gratuito)
+  - A linguagem R é baseada em objetos, os objetos podem ser vetores, matrizes, funções, aquivos, conjuntos de dados, etc.
+  - Com a linguagem R se manipula objetos. A manipulação pode ser cálculo, entrada e saída de dados, análises estatísticas, graficos, etc.
+  - R é um 'projeto' open-source (gratuito).
   - R possui uma grande variedade de pacotes e bibliotecas (https://cran.r-project.org).
   - A linguagem R é totalmente imperativa (*o programador diz como e o quê exatamente um programa ou rotina deve realizar*).
   - O R é case-sensitive, isto é, ele diferencia letras maiúsculas de minúsculas. (*portanto **A** é diferente de **a***).
@@ -73,17 +73,120 @@
   - Para imprimir um comando na tela utilize a função **print()**.
   - Um principio basico de programação é evitar a repetição de código, quando tivermos um trecho de código que poderar ser repetido diversas vezes em um arquivo separado podemos facilmente inclui no nosso script do R sem ter que copiar e colar. Quando queremos executar comandos existentes dentro de um script usamos a função **source()**. 
 
-- #### Operadores Basico, relacionais e logicos
-- #### Tipos de Dados
-- #### Variáveis
-- #### Objetos
-- #### Vetores
-- #### Matrizes
-- #### Listas
-- #### Srtings
-- #### Dataframes
-- #### Estrutura de Controle
-- #### Exercicios
+- ### Operadores Basico, relacionais e logicos
+>Script com exemplos na pasta **Parte-1/02-Operadores.R** .
+  - Operadores Matemáticos
+    - | Operador | Operação |
+      |----------|----------|
+      | + | Soma|
+      | - | Subtração|
+      | * | Multiplicação |
+      | / | Divisão |
+      | ^ ou ** | Potência |
+      | %%| Módulo (resto da divisão) |
+
+      ```R
+      # Soma
+      10 + 20
+      # Subtração
+      20 - 10
+      # Multiplicação
+      10 * 20
+      # Divisão
+      20 / 10
+      # Potência
+      10 ^ 3
+      10 ** 3
+      # Módulo
+      10 %% 3      
+      # Use parênteses para separar partes dos cálculos.
+      (10 + 4)*(10 - 5)
+      ```
+
+  - Operadores Relacionais
+    - | Operador | Operação |
+      |----------|----------|
+      | > | Maior|
+      | < | Menor|
+      | >= | Maior ou igual |
+      | <= | Menor ou igual |
+      | == | Igual (comparação) |
+      | != | Diferente |
+
+      *Os operadores relacionais retornam valores booleanos TRUE (verdadeiro) ou FALSE (falso).*
+
+      ```R
+      # Maior
+      5 > 3
+      # Menor
+      3 < 4
+      # Menor ou Igual
+      5 <=10
+      # Maior ou Igual 
+      8 >=7
+      # Igual
+      5 == 5
+      # Diferente
+      3 != 4
+      ```
+  - Operadores Lógicos
+    - | Operador | Operação |
+      |----------|----------|
+      | & | and|
+      | \| | or|
+      | ! | not |
+      | TRUE (ou 1) | Valor booleano verdadeiro (1) |
+      | FALSE (ou 0) | Valor boolenao falso (0) |
+      *Caso tenha alguma duvida sobre o funciomanento dos operadores lógicos, veja abaixo como é o funciomamento (lógica) de cada operador através da tabela verdade.*
+
+      - Tabela Verdade
+        - Conectivo & (and)
+          - | P |  Q | P & Q |
+            | --| -- | ----- |
+            | TRUE  | TRUE  | TRUE |
+            | TRUE  | FALSE | FALSE|
+            | FALSE | TRUE  | FALSE|
+            | FALSE | FALSE | FALSE|
+            
+            *A conjução **P & Q** é verdadeira (TRUE) se P e Q são ambos verdadeiro; se ao menos uma delas for falsa (FALSE) então **P & Q** é falsa.*
+        
+        - Conectivo | (or)
+          - | P |  Q | P \| Q |
+            | --| -- | ----- |
+            | TRUE  | TRUE  | TRUE |
+            | TRUE  | FALSE | TRUE |
+            | FALSE | TRUE  | TRUE |
+            | FALSE | FALSE | FALSE|
+            
+            *A disjunção **P \| Q** é verdadeira (TRUE) se ao menos uma das proposições P ou Q é veradeira; se P e Q são ambas falsas (FALSE), então P \| é falsa.*
+
+        - Negação ! (not)
+          - | P | !P |
+            |-- |-- |
+            | TRUE| FALSE|
+            | FALSE | TRUE |
+            
+            *A preposição **!P** tem sempre o valor oposto de P, isto é !P é verdadeira (TRUE) quando P é falsa (FALSE) e !P é falsa quando P é verdadeira.*
+  
+      ```R
+      # & (and)
+      (10==10) & (4 !=6)
+      # | (or)
+      (3==8) | (7 > 4)
+      # ! (not)
+      !FALSE
+      ```
+            
+- ### Tipos de Dados
+- ### Variáveis
+- ### Objetos
+- ### Vetores
+- ### Matrizes
+- ### Listas
+- ### Srtings
+- ### Dataframes
+- ### Estrutura de Controle
+- ### Exercicios
 
 
 
