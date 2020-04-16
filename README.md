@@ -37,7 +37,7 @@
    - <a href="#blue_book-estrutura-de-controle">Estrutura de Controle</a>
    - <a href="#blue_book-exercicios">Exercicios</a>
 
-- ### :blue_book: R Fundamentos
+- ### **:blue_book:** R Fundamentos
 ### :blue_book: Operadores Basico, relacionais e logicos
 ### :blue_book: Tipos de Dados
 ### :blue_book: Variáveis
