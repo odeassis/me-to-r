@@ -24,31 +24,31 @@
 
 ## :milky_way: Índice
 - ## 1. Fundamentos do R parte 1
-   - <a href="#blue_book-r-fundamentos">R Fundamentos</a>
-   - <a href="#blue_book-operadores-basico-relacionais-e-logicos">Operadores Basico, relacionais e logicos</a>
-   - <a href="#blue_book-tipos-de-dados">Tipos de Dados</a>
-   - <a href="#blue_book-variáveis">Variáveis</a>
-   - <a href="#blue_book-objetos">Objetos</a>
-   - <a href="#blue_book-vetores">Vetores</a>
-   - <a href="#blue_book-matrizes">Matrizes</a>
-   - <a href="#blue_book-listas">Listas</a>
-   - <a href="#blue_book-strings">Strings</a>
-   - <a href="#blue_book-dataframes">Dataframes</a>
-   - <a href="#blue_book-estrutura-de-controle">Estrutura de Controle</a>
-   - <a href="#blue_book-exercicios">Exercicios</a>
+   - <a href="#r-fundamentos">R Fundamentos</a>
+   - <a href="#operadores-basico-relacionais-e-logicos">Operadores Basico, relacionais e logicos</a>
+   - <a href="#tipos-de-dados">Tipos de Dados</a>
+   - <a href="#variáveis">Variáveis</a>
+   - <a href="#objetos">Objetos</a>
+   - <a href="#vetores">Vetores</a>
+   - <a href="#matrizes">Matrizes</a>
+   - <a href="#listas">Listas</a>
+   - <a href="#strings">Strings</a>
+   - <a href="#dataframes">Dataframes</a>
+   - <a href="#estrutura-de-controle">Estrutura de Controle</a>
+   - <a href="#exercicios">Exercicios</a>
 
-- ### **:blue_book:** R Fundamentos
-### :blue_book: Operadores Basico, relacionais e logicos
-### :blue_book: Tipos de Dados
-### :blue_book: Variáveis
-### :blue_book: Objetos
-### :blue_book: Vetores
-### :blue_book: Matrizes
-### :blue_book: Listas
-### :blue_book: Srtings
-### :blue_book: Dataframes
-### :blue_book: Estrutura de Controle
-### :blue_book: Exercicios
+- ### R Fundamentos
+- ### Operadores Basico, relacionais e logicos
+- ### Tipos de Dados
+- ### Variáveis
+- ### Objetos
+- ### Vetores
+- ### Matrizes
+- ### Listas
+- ### Srtings
+- ### Dataframes
+- ### Estrutura de Controle
+- ### Exercicios
 
 
 
