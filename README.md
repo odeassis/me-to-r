@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#octocat-sobre-o-repositorio">Sobre esse repositorio </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#milky_way-indice">Índice </a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#octocat-sobre-o-repositorio">Sobre esse repositorio </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#milky_way-índice">Índice </a> &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp; 
 </p>
 
@@ -23,21 +23,34 @@
   Repositório destinado ao aprendizado da linguagem R e suas aplicações na área de ciências de dados.
 
 ## :milky_way: Índice
-## 1. Fundamentos do R parte 1
+- ## 1. Fundamentos do R parte 1
    - <a href="#blue_book-r-fundamentos">R Fundamentos</a>
-   - Operadores Basico, relacionais e logicos
-   - Tipos de Dados
-   - Variáveis
-   - Objetos
-   - Vetores
-   - Matrizes
-   - Listas
-   - Strings
-   - Dataframes
-   - Estrutura de Controle
-   - Exercicios
+   - <a href="#blue_book-operadores-basico-relacionais-e-logicos">Operadores Basico, relacionais e logicos</a>
+   - <a href="#blue_book-tipos-de-dados">Tipos de Dados</a>
+   - <a href="#blue_book-variáveis">Variáveis</a>
+   - <a href="#blue_book-objetos">Objetos</a>
+   - <a href="#blue_book-vetores">Vetores</a>
+   - <a href="#blue_book-matrizes">Matrizes</a>
+   - <a href="#blue_book-listas">Listas</a>
+   - <a href="#blue_book-strings">Strings</a>
+   - <a href="#blue_book-dataframes">Dataframes</a>
+   - <a href="#blue_book-estrutura-de-controle">Estrutura de Controle</a>
+   - <a href="#blue_book-exercicios">Exercicios</a>
 
 ### :blue_book: R Fundamentos
+### :blue_book: Operadores Basico, relacionais e logicos
+### :blue_book: Tipos de Dados
+### :blue_book: Variáveis
+### :blue_book: Objetos
+### :blue_book: Vetores
+### :blue_book: Matrizes
+### :blue_book: Listas
+### :blue_book: Srtings
+### :blue_book: Dataframes
+### :blue_book: Estrutura de Controle
+### :blue_book: Exercicios
+
+
 
 ## :memo: Licença
 
