@@ -22,6 +22,7 @@ x2
 y2 = as.integer(3.14)
 y2
 
+# Converter String para Inteiro
 as.integer('3.12')
 as.integer('Fran')
 as.integer("Fran")
@@ -39,6 +40,7 @@ compl = 2.5 + 4i
 compl
 class(compl)
 
+# Raiz quadrada
 sqrt(-1)
 sqrt(-1+0i)
 sqrt(as.complex(-1))
@@ -50,6 +52,7 @@ z
 class(z)
 
 u = TRUE; v = FALSE
+class(u)
 u & v
 u | v
 !u
