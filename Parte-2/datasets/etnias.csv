@@ -1,0 +1,12 @@
+Codigo,Sexo,Idade,Peso,Altura,Estado_Civil,Etnia
+1000,M,35,89,175,0,Branco
+1001,F,23,70,160,1,Pardo
+1002,F,34,64,161,1,Pardo
+1003,F,76,58,167,2,Negro
+1004,M,58,56,159,0,Branco
+1005,M,43,63,167,0,Branco
+1006,F,42,62,172,2,Negro
+1007,M,29,120,190,1,Pardo
+1008,F,23,88,189,1,Pardo
+1009,M,67,81,186,1,Branco
+1010,M,58,64,175,0,Branco
