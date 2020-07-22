@@ -2,13 +2,13 @@
 
 # Criando Matrizes
 
-# N�mero de Linhas
+# Numero de Linhas
 matrix (c(1,2,3,4,5,6), nr = 2)
 matrix (c(1,2,3,4,5,6), nr = 3)
 matrix (c(1,2,3,4,5,6), nr = 6)
 
 
-# N�mero de Colunas
+# Numero de Colunas
 matrix ( c ( 1,2,3,4,5,6), nc = 2)
 
 
@@ -16,7 +16,7 @@ matrix ( c ( 1,2,3,4,5,6), nc = 2)
 ?matrix
 
 
-# Matrizes precisam ter um n�mero de elementos que seja m�ltiplo do n�mero de linhas
+# Matrizes precisam ter um numero de elementos que seja multiplo do numero de linhas
 matrix ( c (1,2,3,4,5), nc = 2)
 
 
@@ -57,7 +57,7 @@ U
 solve(W)
 
 
-# Multiplica��o de Matrizes
+# Multiplicao de Matrizes
 mat1 <- matrix(c(2,3,4,5), nr = 2)
 mat1
 mat2 <- matrix(c(6,7,8,9), nr = 2)
@@ -76,13 +76,13 @@ x * y
 
 
 # Nomeando a Matriz
-mat3 <- matrix(c('Futebol', 'Nata��o', 'Campo', 'Piscina'), nr = 2)
+mat3 <- matrix(c('Futebol', 'Natacao', 'Campo', 'Piscina'), nr = 2)
 mat3
 dimnames(mat3) = (list( c("Linha1", "Linha2"), c("Coluna1", "Coluna2")))
 mat3
 
 
-# Identificando linhas e colunas no momento de cria��o da Matriz
+# Identificando linhas e colunas no momento de criacao da Matriz
 matrix (c(1,2,3,4), nr = 2, nc = 2, dimnames = list(c("Linha 1", "Linha 2" ), c( "Coluna 1", " Coluna 2") ))
 
 

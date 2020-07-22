@@ -100,9 +100,11 @@ unique(tolower(palavras))
 
 antes = data.frame(attr = c(1, 30, 4, 6), tipo = c('pao_e_agua', 'pao_e_agua_2'))
 antes
+# Retorna uma lista
 strsplit(as.character(antes$tipo), '_e_')
 
 library(stringr)
+#Retorna uma matriz (ou tipo diferente)
 str_split_fixed(antes$tipo, '_e_', 2)
 
 depois <- strsplit(as.character(antes$tipo),  '_e_')
@@ -117,6 +119,7 @@ antes <- data.frame(
   tipo = c('pao_e_agua','pao_e_agua_2')
 )
 
+# Retorna um dataframe
 antes %>% separate(tipo, c('pao', 'agua'), '_e_')
 
 
@@ -130,7 +133,7 @@ class(vector_2)
 typeof(vector_1)
 typeof(vector_2)
 
-mean(x = 1:10)
+mean(x = 1:10) # x existe apenas em tempo de execucao
 x
 
 mean(x <- 1:10)
