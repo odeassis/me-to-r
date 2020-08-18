@@ -34,10 +34,10 @@ Sys.timezone()
 
 
 # Formatando a saída - as.Date()
-as.Date("2016-06-28")
-as.Date("20160628434")
-as.Date("Jun-28-16", format = "%b-%d-%y")
-as.Date("28 June, 2016", format = "%d %B, %Y")
+as.Date("2020-06-28")
+as.Date("20200628434")
+as.Date("Jun-28-20", format = "%b-%d-%y")
+as.Date("28 June, 2020", format = "%d %B, %Y")
 
 
 # Função format()
@@ -53,11 +53,11 @@ date1_convert
 
 
 # Operações com Datas
-data_de_hoje <- as.Date("2016-06-25", format = "%Y-%m-%d")
+data_de_hoje <- as.Date("2020-06-25", format = "%Y-%m-%d")
 data_de_hoje
 data_de_hoje + 1
 
-my_time <- as.POSIXct("2016-05-14 11:24:134")
+my_time <- as.POSIXct("2020-05-14 11:24:134")
 my_time
 my_time + 1
 
@@ -76,9 +76,9 @@ mydates
 
 
 # Função ISODate
-b1 = ISOdate(2011,3,23)
+b1 = ISOdate(2019,3,23)
 b1
-b2 = ISOdate(2012,9,19)
+b2 = ISOdate(2020,9,19)
 b2
 b2 - b1
 
@@ -89,11 +89,11 @@ difftime(b2, b1, units='weeks')
 install.packages("lubridate")
 require(lubridate)
 
-ymd("20160604") 
-mdy("06-04-2016") 
-dmy("04/06/2016")
+ymd("20200604") 
+mdy("06-04-2020") 
+dmy("04/06/2020")
 
-chegada <- ymd_hms("2016-06-04 12:00:00", tz = "Pacific/Auckland")
+chegada <- ymd_hms("2020-06-04 12:00:00", tz = "Pacific/Auckland")
 partida <- ymd_hms("2011-08-10 14:00:00", tz = "Pacific/Auckland")
 
 chegada
@@ -108,10 +108,10 @@ class(chegada)
 interval(chegada, partida)
 
 
-tm1.lub <- ymd_hms("2016-05-24 23:55:26")
+tm1.lub <- ymd_hms("2020-05-24 23:55:26")
 tm1.lub
 
-tm2.lub <- mdy_hm("05/25/16 08:32")
+tm2.lub <- mdy_hm("05/25/20 08:32")
 tm2.lub
 
 year(tm1.lub)
@@ -124,7 +124,7 @@ force_tz(tm1.lub, "Pacific/Auckland")
 
 # Gerando um dataframe de datas
 sono <- data.frame(bed.time = ymd_hms("2013-09-01 23:05:24", "2013-09-02 22:51:09", 
-                                       "2013-09-04 00:09:16", "2013-09-04 23:43:31", "2013-09-06 00:17:41", "2013-09-06 22:42:27", 
+                                       "2013-09-04 00:09:20", "2013-09-04 23:43:31", "2013-09-06 00:17:41", "2013-09-06 22:42:27", 
                                        "2013-09-08 00:22:27"), rise.time = ymd_hms("2013-09-02 08:03:29", "2013-09-03 07:34:21", 
                                                                                    "2013-09-04 07:45:06", "2013-09-05 07:07:17", "2013-09-06 08:17:13", "2013-09-07 06:52:11", 
                                                                                    "2013-09-08 07:15:19"), sleep.time = dhours(c(6.74, 7.92, 7.01, 6.23, 6.34, 7.42, 6.45)))

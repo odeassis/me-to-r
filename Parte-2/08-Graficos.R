@@ -160,5 +160,3 @@ plot(expectativa ~ pibpercap, data = df_1982, log = "x",
      col = mycol[continente],
      cex = mycex(pop, r = c(0.2, 10))
 )
-
-
