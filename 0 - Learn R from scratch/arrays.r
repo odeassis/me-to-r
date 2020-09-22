@@ -7,10 +7,10 @@
 
 myVector <- c(1, 2, 3) # create a vector
 myArray3x1 <- array(myVector, dim = c(3, 1))
-print(myArray)
+print(myArray3x1)
 
 myArray1x3 <- array(myVector, dim = c(1, 3))
-print(myArray)
+print(myArray1x2)
 
 myArray2x2 <- array(myVector, dim = c(2,2))
 print(myArray2x2)
