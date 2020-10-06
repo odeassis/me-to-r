@@ -29,8 +29,8 @@ sapply(linsta_num, mean)
 
 matriz_x <- matrix(rnorm(9), nr=3, byrow = T)
 matriz_x
-apply(matriz_x, 1, mean)
-apply(matriz_x, 2, mean)
+apply(matriz_x, 1, mean) # 1 row
+apply(matriz_x, 2, mean) # 2 columns
 apply(matriz_x, 1, plot)
 
 resultado_apply <- apply(matriz_x, 1, mean)

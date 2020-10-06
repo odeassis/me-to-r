@@ -27,3 +27,13 @@ if(age >= 18){
 } else {
   cat("Voting not allowed")
 }
+
+testVariable <- 45
+
+if(testVariable %%3 == 0){
+    cat("foo")
+} else if (testVariable %% 5 == 0) {
+    cat("bar")
+} else if (testVariable %% 3 == 0 && testVariable %% 5 == 0) {
+    cat("foo + bar")
+}

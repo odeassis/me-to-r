@@ -49,7 +49,7 @@ labels_data
 set1 <- c("AA", "B", "BA", "CC", "CA", "AA", "BA", "CC", "CC")
 set1
 
-# Transformando os dados. O R aoenas criou os niveis, o que nao significa que exista uma hierarquia
+# Transformando os dados. O R apenas criou os niveis, o que nao significa que exista uma hierarquia
 factor_set1 <- factor(set1)
 factor_set1
 class(factor_set1)
